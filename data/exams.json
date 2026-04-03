@@ -46,5 +46,22 @@
     "questionCount": 100,
     "estimatedMinutes": 100,
     "author": "Youssef Mohammad"
+  },
+
+  {
+    "id": "secure_computing-spring-2026-midterm",
+    "title": "Secure Computing",
+    "description": "Covers security foundations, CIA triad, cryptography basics, advanced ciphers, data recovery, secure deletion, wireless WLAN security, and steganography.",
+    "file": "data/secure_computing-spring-2026-midterm.csv",
+    "tags": ["Cybersecurity", "Cryptography", "Steganography", "Wireless Security"],
+    "subject": "secure_computing",
+    "semester": "spring",
+    "year": 2026,
+    "type": "midterm",
+    "difficulty": "intermediate",
+    "sections": 6,
+    "questionCount": 100,
+    "estimatedMinutes": 100,
+    "author": "Youssef Mohammad"
   }
 ]
