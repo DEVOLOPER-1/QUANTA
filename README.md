@@ -256,8 +256,13 @@ Contributions are welcome! The most valuable contributions are:
 
 ## License
 
-MIT — free to use, fork, and share.
-If QUANTA helps your students, a ⭐ on GitHub is appreciated.
+**Code** (HTML, CSS, JS) — MIT License
+Free to use, fork, and build upon.
+
+**Question Banks** (`data/*.csv`) — CC BY-NC-SA 4.0
+Free to use and adapt for non-commercial, educational purposes.
+Must credit original authors. Derivatives must carry the same license.
+Commercial use of the question banks is not permitted.
 
 ---
 
