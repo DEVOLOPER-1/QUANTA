@@ -1,0 +1,132 @@
+/* ═══════════════════════════════════════════════════════
+   QUANTA — Design Tokens
+   "Meridian" aesthetic: precision academic, distraction-free
+   ═══════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Light Theme ── */
+  --bg:          #F2F1EE;
+  --bg-2:        #E9E8E4;
+  --surface:     #FFFFFF;
+  --surface-2:   #F8F7F4;
+  --surface-3:   #F0EFE9;
+  --border:      #E2E1DC;
+  --border-hi:   #C8C7C0;
+
+  --text-1:      #111010;
+  --text-2:      #5C5B56;
+  --text-3:      #9B9A94;
+  --text-inv:    #FAFAF8;
+
+  --accent:      #4F67FF;
+  --accent-2:    #3A50E0;
+  --accent-dim:  rgba(79, 103, 255, 0.10);
+  --accent-muted:rgba(79, 103, 255, 0.06);
+
+  --ok:          #16A34A;
+  --ok-dim:      rgba(22, 163, 74, 0.10);
+  --ok-border:   rgba(22, 163, 74, 0.25);
+
+  --err:         #DC2626;
+  --err-dim:     rgba(220, 38, 38, 0.10);
+  --err-border:  rgba(220, 38, 38, 0.25);
+
+  --warn:        #D97706;
+  --warn-dim:    rgba(217, 119, 6, 0.10);
+
+  /* Section palette — cycles for each section */
+  --c1: #6D28D9; --c2: #047857; --c3: #1D4ED8;
+  --c4: #B45309; --c5: #BE185D; --c6: #0369A1;
+
+  /* Difficulty */
+  --d-easy:   #16A34A;
+  --d-medium: #2563EB;
+  --d-hard:   #DC2626;
+
+  /* ── Typography ── */
+  --ff-display: 'Syne', system-ui, sans-serif;
+  --ff-body:    'DM Sans', system-ui, sans-serif;
+  --ff-mono:    'JetBrains Mono', 'Fira Mono', monospace;
+
+  /* ── Scale ── */
+  --text-xs:   0.6875rem;  /* 11px */
+  --text-sm:   0.8125rem;  /* 13px */
+  --text-base: 0.9375rem;  /* 15px */
+  --text-md:   1.0625rem;  /* 17px */
+  --text-lg:   1.1875rem;  /* 19px */
+  --text-xl:   1.375rem;   /* 22px */
+  --text-2xl:  1.75rem;    /* 28px */
+  --text-3xl:  2.25rem;    /* 36px */
+  --text-4xl:  3rem;       /* 48px */
+
+  /* ── Spacing ── */
+  --sp-1:  4px;  --sp-2:  8px;  --sp-3: 12px;
+  --sp-4: 16px;  --sp-5: 20px;  --sp-6: 24px;
+  --sp-8: 32px;  --sp-10:40px;  --sp-12:48px;
+  --sp-16:64px;
+
+  /* ── Radii ── */
+  --r-xs:  4px;  --r-sm: 8px;
+  --r-md: 12px;  --r-lg: 18px;
+  --r-xl: 24px;  --r-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.06), 0 2px 8px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.10), 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-xl: 0 16px 48px rgba(0,0,0,0.12), 0 4px 12px rgba(0,0,0,0.06);
+
+  /* ── Motion ── */
+  --ease:       cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out:   cubic-bezier(0, 0, 0.2, 1);
+  --ease-spring:cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast: 120ms;
+  --dur:      200ms;
+  --dur-slow: 350ms;
+}
+
+/* ── Dark Theme ── */
+[data-theme="dark"] {
+  --bg:          #0C0C10;
+  --bg-2:        #111118;
+  --surface:     #14141C;
+  --surface-2:   #1A1A24;
+  --surface-3:   #20202C;
+  --border:      #20202C;
+  --border-hi:   #2E2E3E;
+
+  --text-1:      #F0EFF8;
+  --text-2:      #8885A8;
+  --text-3:      #48476A;
+  --text-inv:    #111010;
+
+  --accent:      #6878FF;
+  --accent-2:    #8595FF;
+  --accent-dim:  rgba(104, 120, 255, 0.14);
+  --accent-muted:rgba(104, 120, 255, 0.07);
+
+  --ok:          #22C55E;
+  --ok-dim:      rgba(34, 197, 94, 0.12);
+  --ok-border:   rgba(34, 197, 94, 0.3);
+
+  --err:         #F87171;
+  --err-dim:     rgba(248, 113, 113, 0.12);
+  --err-border:  rgba(248, 113, 113, 0.3);
+
+  --warn:        #FBB024;
+  --warn-dim:    rgba(251, 176, 36, 0.12);
+
+  --c1: #A78BFA; --c2: #34D399; --c3: #60A5FA;
+  --c4: #FBBF24; --c5: #F472B6; --c6: #22D3EE;
+
+  --d-easy:   #22C55E;
+  --d-medium: #60A5FA;
+  --d-hard:   #F87171;
+
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.3);
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.2);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.6), 0 2px 8px rgba(0,0,0,0.4);
+  --shadow-xl: 0 16px 64px rgba(0,0,0,0.7), 0 4px 16px rgba(0,0,0,0.5);
+}

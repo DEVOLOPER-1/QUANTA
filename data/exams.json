@@ -1,0 +1,14 @@
+[
+  {
+    "id": "xai-ml",
+    "title": "XAI & Responsible ML",
+    "description": "Covers Explainable AI taxonomy, EDA, multivariate correlation, hypothesis testing, feature selection, linear & logistic regression, and tree-based models.",
+    "file": "data/questions.csv",
+    "tags": ["Machine Learning", "XAI", "Statistics", "Feature Selection"],
+    "difficulty": "intermediate",
+    "sections": 6,
+    "questionCount": 100,
+    "estimatedMinutes": 60,
+    "author": "Community"
+  }
+]
