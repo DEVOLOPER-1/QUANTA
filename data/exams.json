@@ -1,14 +1,50 @@
 [
   {
-    "id": "xai-ml",
+    "id": "xai-spring-2026-midterm",
     "title": "XAI & Responsible ML",
     "description": "Covers Explainable AI taxonomy, EDA, multivariate correlation, hypothesis testing, feature selection, linear & logistic regression, and tree-based models.",
-    "file": "data/questions.csv",
+    "file": "data/xai-spring-2026-midterm.csv",
     "tags": ["Machine Learning", "XAI", "Statistics", "Feature Selection"],
+    "subject": "xai",
+    "semester": "spring",
+    "year": 2026,
+    "type": "midterm",
     "difficulty": "intermediate",
     "sections": 6,
     "questionCount": 100,
-    "estimatedMinutes": 60,
-    "author": "Community"
+    "estimatedMinutes": 100,
+    "author": "Youssef Mohammad"
+  },
+  {
+    "id": "nlp-spring-2026-midterm",
+    "title": "Natural Language Processing",
+    "description": "Covers tokenization, language models, sequence-to-sequence architectures, transformers, embeddings, sentiment analysis, and NLP evaluation metrics.",
+    "file": "data/nlp-spring-2026-midterm.csv",
+    "tags": ["NLP", "Embedding Models", "RNN", "Text Processing"],
+    "subject": "nlp",
+    "semester": "spring",
+    "year": 2026,
+    "type": "midterm",
+    "difficulty": "intermediate",
+    "sections": 5,
+    "questionCount": 100,
+    "estimatedMinutes": 100,
+    "author": "Youssef Mohammad"
+  },
+  {
+    "id": "cv-spring-2026-midterm",
+    "title": "Computer Vision",
+    "description": "Covers image processing fundamentals, CNNs, object detection, segmentation, feature extraction, and modern vision architectures.",
+    "file": "data/cv-spring-2026-midterm.csv",
+    "tags": ["Computer Vision", "CNNs", "Object Detection", "Deep Learning"],
+    "subject": "cv",
+    "semester": "spring",
+    "year": 2026,
+    "type": "midterm",
+    "difficulty": "intermediate",
+    "sections": 5,
+    "questionCount": 100,
+    "estimatedMinutes": 100,
+    "author": "Youssef Mohammad"
   }
 ]
