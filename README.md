@@ -9,13 +9,13 @@ Drop a CSV into `data/`, register it in `exams.json`, and it appears in the exam
 ---
 
 ## Screenshot & Demo
-> `media-assets\QUANTA-selector-view.png`
+> ![](assets\QUANTA-selector-view.png)
 
 > `media-assets\QUANTA-exam-view.png`
 
 > `media-assets\QUANTA-exam-results.png`
 
-**Live Demo:** [https://developer-1.github.io/QUANTA/](https://developer-1.github.io/QUANTA/)
+**Live Demo:** [https://devoloper-1.github.io/QUANTA/](https://devoloper-1.github.io/QUANTA/)
 
 ---
 
