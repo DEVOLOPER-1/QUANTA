@@ -1,16 +1,16 @@
 [
-  {
-    "id": "xai-spring-2026-midterm",
-    "title": "XAI & Responsible ML",
-    "description": "Covers Explainable AI taxonomy, EDA, multivariate correlation, hypothesis testing, feature selection, linear & logistic regression, and tree-based models.",
-    "file": "data/xai-spring-2026-midterm.csv",
-    "tags": ["Machine Learning", "XAI", "Statistics", "Feature Selection"],
+{
+    "id": "xai-spring-2026-final",
+    "title": "XAI - Global, Local & NN Interpretability",
+    "description": "Covers Global Methods (PDP, ICE, ALE, PFI), Local Methods (LIME, SHAP), and Neural Network Interpretability (Vanilla Gradients, Grad-CAM, Network Dissection).",
+    "file": "data/xai-spring-2026-final.csv",
+    "tags": ["Machine Learning", "Explainable AI", "Deep Learning", "Computer Vision"],
     "subject": "xai",
     "semester": "spring",
     "year": 2026,
-    "type": "midterm",
-    "difficulty": "intermediate",
-    "sections": 6,
+    "type": "final",
+    "difficulty": "advanced",
+    "sections": 3,
     "questionCount": 100,
     "estimatedMinutes": 100,
     "author": "Youssef Mohammad"
